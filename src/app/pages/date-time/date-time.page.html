@@ -1,0 +1,11 @@
+<app-header titulo="Calendario"></app-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list-header>
+    <ion-label color="warning" >Fecha de nacimiento</ion-label>
+  </ion-list-header>
+  <ion-item >
+    <ion-label color="warning" >Mes y año</ion-label>
+    <ion-datetime [firstDayOfWeek]="1"></ion-datetime>
+  </ion-item>
+</ion-content>
